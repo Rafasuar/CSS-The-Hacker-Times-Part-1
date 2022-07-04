@@ -1,29 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-@import url('https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    src: url('/assets/fonts/SourceSansPro-Black.ttf'),
-         url('/assets/fonts/SourceSansPro-BlackItalic.ttf'),
-         url('/assets/fonts/SourceSansPro-Bold.ttf'),
-         url('/assets/fonts/SourceSansPro-BoldItalic.ttf'),
-         url('/assets/fonts/SourceSansPro-ExtraLight.ttf'),
-         url('/assets/fonts/SourceSansPro-ExtraLightItalic.ttf'),
-         url('/assets/fonts/SourceSansPro-Italic.ttf'),
-         url('/assets/fonts/SourceSansPro-Light.ttf'),
-         url('/assets/fonts/SourceSansPro-LightItalic.ttf'),
-         url('/assets/fonts/SourceSansPro-Regular.ttf') format('truetype') local('Source Sans Pro'),
-         url('/assets/fonts/SourceSansPro-SemiBold.ttf'),
-         url('/assets/fonts/SourceSansPro-SemiBoldItalic.ttf');
-
+    font-family: 'Source Sans Pro', sans-serif;
+    src: local('Source Sans Pro');
+    src: url('fonts/SourceSansPro-Regular.ttf');
 
 }
 
-body {
+.newspaper-container{
+    max-width: 700px;
+    border-style: hidden;
+    background-color: white;
+    box-shadow: #ddd;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+}
 
-    font-family: '', sans-serif;
+header{
+    font-family: 'Abril Fatface';
+}
 
+.date{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    list-style: none;
+    margin: auto;
+}
+
+a:link{
+    color: #777;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Source Sans Serif',sans-serif;
+    font-weight: 200;
+
+}
+
+ul,li{
+    color: #777;
+    margin-left:.5em;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #eee;
+}
+
+main{
+    border-bottom: .5px solid;
+    border-color: lightgray;
+    margin: 50px;
+
+}
+
+#p1{
+    font-weight: 300;
+}
+
+h5{
+    color:red;
+}
+
+article{
+    font-family: 'Roboto Slab';
+
+
+}
+.more-articles{
+    display: inline-flex;
+}
+
+.ts{
+    width: 300px;
+    font-weight: 300;
+    align-items: center;
+
+}
+
+.tsp{
+    text-align: center;
+    width: fit-content;
+}
+
+.caff{
+    width: 300px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 90px;
+    
+}
+
+.caffp{
+    text-align: center;
+    width:fit-content;
 }
