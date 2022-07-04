@@ -30,6 +30,10 @@ h1{
     text-align: center;
 }
 
+h5{
+    font-family: 'Abril Fatface';
+}
+
 nav{
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -69,6 +73,7 @@ main{
 
 #p1{
     font-weight: 300;
+    padding: 6px 6px;
 }
 
 h5{
@@ -92,8 +97,7 @@ article{
 }
 
 .tsp{
-    text-align: center;
-    width: fit-content;
+    padding: 6px 6px;
 }
 
 .caff{
@@ -105,6 +109,5 @@ article{
 }
 
 .caffp{
-    text-align: center;
-    width:fit-content;
+    padding: 6px 6px;
 }
