@@ -40,6 +40,9 @@ nav{
     border-color: lightgray;
     list-style: none;
     margin: auto;
+    background-color: white;
+    position:sticky;
+    top: 0px;
 }
 
 a:link{
@@ -109,5 +112,17 @@ article{
 }
 
 .caffp{
+    padding: 6px 6px;
+}
+
+.grid-container{
+    display: grid;
+    grid-column: auto;
+}
+.grid-item1{
+    width: 300px;
+    font-weight: 300;
+}
+.marines{
     padding: 6px 6px;
 }
